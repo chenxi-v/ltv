@@ -1,0 +1,33 @@
+
+> moontv@6.1.1 dev C:\Users\chenxi\Desktop\tr\LunaTV
+> pnpm gen:manifest && next dev -H 0.0.0.0
+
+
+> moontv@6.1.1 gen:manifest C:\Users\chenxi\Desktop\tr\LunaTV
+> node scripts/generate-manifest.js
+
+✅ Generated manifest.json with site name: MoonTV
+▲ Next.js 16.1.0 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://0.0.0.0:3000
+- Environments: .env.local
+
+✓ Starting...
+✓ Ready in 1433ms
+  Reload env: .env.local
+✓ Compiled in 71ms
+  Reload env: .env.local
+✓ Compiled in 34ms
+Upstash Redis client created successfully
+ GET /warning 200 in 2.6s (compile: 550ms, render: 2.0s)
+server-config called:  http://0.0.0.0:3000/api/server-config?key=TrustedNetworkConfig
+TelegramAuthConfig: undefined
+ GET /api/server-config?key=TrustedNetworkConfig 200 in 857ms (compile: 366ms, render: 491ms)
+ GET /api/watch-room/config 200 in 940ms (compile: 442ms, render: 499ms)
+ DELETE /api/cache?prefix=shortdrama- 200 in 1193ms (compile: 54ms, proxy.ts: 982ms, render: 157ms)
+ GET /warning 200 in 939ms (compile: 7ms, render: 932ms)
+ DELETE /api/cache?prefix=shortdrama- 200 in 159ms (compile: 4ms, proxy.ts: 6ms, render: 150ms)
+ GET /api/watch-room/config 200 in 452ms (compile: 4ms, render: 448ms)
+ GET /warning 200 in 634ms (compile: 5ms, render: 629ms)
+ DELETE /api/cache?prefix=shortdrama- 200 in 160ms (compile: 3ms, proxy.ts: 5ms, render: 152ms)
+ GET /api/watch-room/config 200 in 501ms (compile: 5ms, render: 496ms)
